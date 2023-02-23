@@ -1,0 +1,177 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+@font-face {
+   font-family: Roboto-Regular;
+   src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.header {
+   width: 100%;
+   height: 94px;
+   background-color: rgba(0, 0, 0, 1);
+   display: flex;
+
+
+}
+
+.note1 img {
+   margin: 12px 168px 12px 100px;
+}
+
+nav ul {
+   width: 270px;
+   display: flex;
+   margin-top: 38px;
+   justify-content: space-between;
+
+}
+
+nav a {
+   font-family: Roboto-Regular;
+   color: rgba(255, 255, 255, 1);
+   font-size: 18px;
+
+}
+
+header ul a:hover {
+   text-decoration-line: underline;
+}
+
+/*** MAIN SOCIAL ***/
+
+.social {
+   width: 50px;
+   height: 100px;
+   position: fixed ;
+   right: 0;
+   top: 210px;
+}
+
+.social div {
+   width: 100%;
+   height: 50%;
+}
+
+.social .facebook {
+   background-image: url(../img/fb\ 1.png);
+}
+
+.social .instagram {
+   background-image: url(../img/instagram\ 1.png);
+}
+
+.social .facebook:hover {
+   background-image: url(../img/facebook.png);
+}
+
+.social .instagram:hover {
+   background-image: url(../img/instagram.png);
+}
+
+.social div a {
+   display: block;
+   width: 100%;
+   height: 100%;
+}
+
+/*** MAIN SOUND ***/
+
+.Today’s {
+   font-family: Roboto-Regular;
+   font-size: 24px;
+   margin: 50px 0 50px 110px;
+}
+
+.container {
+   width: 300px;
+   height: 270px;
+   border: 1px solid rgba(0, 0, 0, 1);
+   margin-left: 110px;
+   margin-bottom: 74px;
+}
+
+article {
+   background-image: url(../img/like\ 1.png), url(../img/sound\ 4.png);
+   background-repeat: no-repeat, repeat-x;
+   background-position: top right, center;
+   background-position-y: 0%, 30%;
+}
+
+article:hover {
+   background-image: url(../img/like\ 2.png), url(../img/sound\ 4.png);
+}
+
+.sound {
+   background-image: url(../img/sound\ 4.png);
+}
+
+.TrackName {
+   font-family: Roboto-Regular;
+   color: rgba(0, 0, 0, 1);
+   font-size: 18px;
+   margin-top: 156px;
+   margin-left: 12px;
+   margin-bottom: 12px;
+}
+
+.Artist {
+   font-family: Roboto-Regular;
+   color: rgba(0, 0, 0, 1);
+   font-size: 14px;
+   margin-left: 12px;
+   margin-bottom: 68px;
+}
+
+.GoOnTo a {
+   font-family: Roboto-Regular;
+   color: rgba(0, 0, 0, 1);
+   font-size: 12px;
+
+}
+
+.GoOnTo:hover {
+   text-decoration: underline;
+}
+
+.Flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+/*** FOOTER ***/
+
+footer{
+   width: 100%;
+   height: 354px;
+   background-color: rgba(0, 0, 0, 1);
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.FOOTERIMG{
+   padding-top: 26px;
+   margin-bottom: 26px;
+}
+.FooterText{
+
+   font-family: Roboto-Regular;
+   color: rgba(255, 255, 255, 1);
+   font-size: 18px;
+   text-align: center;
+}
+.AllRights{
+   font-family: Roboto-Regular;
+   color: rgba(255, 255, 255, 1);
+   font-size: 18px;
+   margin-top: 50px;
+
+}
+.FOTERBOX{
+
+}
